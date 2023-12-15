@@ -219,7 +219,7 @@ width: 100%;
     }
     .contactform
 {
-    width: 100%;
+    width: 80%;
     border-radius: 10%;
     padding: 10px;
     background: #fff;
@@ -234,6 +234,13 @@ width: 100%;
     .content h1 {
         font-size: 25px;  
     }
+    .contactform
+{
+    width: 80%;
+    border-radius: 10%;
+    padding: 10px;
+    background: #fff;
+}
         .container{
         flex-direction: column;
 }
