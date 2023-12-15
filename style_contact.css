@@ -224,6 +224,8 @@ width: 100%;
     padding: 10px;
     background: #fff;
 }
+    .container{
+        flex-direction: column;
 }
 @media(max-width: 400px){
     .sidebar{
@@ -232,6 +234,9 @@ width: 100%;
     .content h1 {
         font-size: 25px;  
     }
+        .container{
+        flex-direction: column;
+}
     .text-box h1 {
         font-size: 20px;
     }
