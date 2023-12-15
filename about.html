@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="products.html">product</a></li>
+            <li><a href="services.html">services</a></li>
+            <li><a href="contact.html">contact us</a></li>
+        </ul>
+        <ul>
+            <li class="logo"><a href="index.html"><img src="logo_1.jpg" alt=""></a></li>
+            <li class="hideonMobile"><a href="index.html">home</a></li>
+            <li class="hideonMobile"><a href="about.html">about us</a></li>
+            <li class="hideonMobile"><a href="products.html">product</a></li>
+            <li class="hideonMobile"><a href="services.html">services</a></li>
+            <li class="hideonMobile"><a href="contact.html">contact us</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h2>This is about us page</h2>
+    </div>
+    
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>
