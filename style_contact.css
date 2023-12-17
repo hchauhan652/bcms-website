@@ -183,6 +183,9 @@ width: 100%;
     outline: none;
     resize: none;
 }
+.contactform .inputBox textarea{
+    height: 100px;
+}
 .contactform .inputBox span
 {
     position: absolute;
@@ -202,6 +205,10 @@ width: 100%;
     color: #e91e63;
     font-size: 12px;
     transform: translateY(-20px);
+}
+.contactform .inputBox textarea:focus ~ span,
+.contactform .inputBox textarea:valid ~ span{
+    visibility: hidden;
 }
 .contactform .inputBox input[type="submit"]
 {
