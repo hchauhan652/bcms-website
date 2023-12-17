@@ -227,6 +227,10 @@ width: 100%;
     .container{
         flex-direction: column;
 }
+    .container .contactinfo
+{
+    margin-left:-150px
+}
 @media(max-width: 400px){
     .sidebar{
         width: 100%;
