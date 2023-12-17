@@ -139,6 +139,9 @@ width: 100%;
     font-size: larger;
     color: #fff;
 }
+.container .contactinfo .box p {
+        width: 200px;
+  }
 .contactform
 {
     width: 40%;
