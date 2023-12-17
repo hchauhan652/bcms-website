@@ -229,7 +229,7 @@ width: 100%;
     background: #fff;
 }
     .container{
-        flex-direction: column;
+        flex-direction: column-reverse;
 }
     .container .contactinfo
 {
