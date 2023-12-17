@@ -198,9 +198,7 @@ width: 100%;
     color: #666;
 }
 .contactform .inputBox input:focus ~ span,
-.contactform .inputBox input:valid ~ span,
-.contactform .inputBox textarea:focus ~ span,
-.contactform .inputBox textarea:valid ~ span
+.contactform .inputBox input:valid ~ span
 {
     color: #e91e63;
     font-size: 12px;
