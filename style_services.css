@@ -21,7 +21,7 @@ nav ul{
     align-items: center;
 }
 nav li{
-    height: 50px;
+    height: 60px;
 }
 nav a{
     height: 100%;
@@ -42,8 +42,8 @@ nav li:first-child{
     margin-right: auto;
 }
 nav img {
-    width: 80px;
-    border-radius: 50px;
+    width: 60px;
+    border-radius: 10%;
 }
 .sidebar{
     position: fixed;
