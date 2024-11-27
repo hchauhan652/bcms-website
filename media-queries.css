@@ -1,0 +1,157 @@
+@media screen and (max-width:1023px) {
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .examples-area {
+        gap: 20px;
+    }
+
+    .examples-card {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .cta-section {
+        padding-block: 80px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .primary-button {
+        width: 100%;
+    }
+
+    .banner-text {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .content h2
+    {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .content p
+    {
+        font-weight: 500;
+    }
+
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .header-section .container {
+        flex-direction: column-reverse;
+    }
+
+    .header-section .container .contactinfo {
+        width: 100dvw;
+        margin-left: 5rem;
+    }
+
+    .header-left {
+        max-width:100vw;
+        text-align: center;
+    }
+    .contactform
+    {
+        width: 100vw;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .contactform h2{
+        font-size: 20px;
+    }
+
+    .contactform h3 {
+        font-size: 12px;
+    }
+
+    .contactform .inputBox span {
+        font-size: 13.2px;
+    }
+
+    .features-card {
+        min-width: calc(50% - 10px);
+    }
+
+    .feature-img img {
+        width: 100vw;
+    }
+    
+    .big-feature-container, #second-big-feature {
+        flex-direction: column;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .link-column {
+        align-items: stretch;
+    }
+
+}
+
+@media screen and (max-width:479px) {
+
+    :root {
+        --padding-inline-section: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .features-card {
+        min-width: 100%;
+    }
+
+    .examples-card {
+        width: 100% ;
+    }
+
+}
