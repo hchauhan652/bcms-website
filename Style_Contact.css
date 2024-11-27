@@ -185,6 +185,7 @@ header {
     flex-direction: column;
     align-items: start;
     color: #000;
+    margin-left: 2rem;
 }
 .header-section .contactinfo .box
 {
