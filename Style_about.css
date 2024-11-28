@@ -122,7 +122,7 @@ overflow: hidden;
 
 /* Nav Bar */
 .main-nav {
-    margin-top: 20px;
+    margin-top: 5px;
     justify-content: space-between;
     position: relative;
 }
