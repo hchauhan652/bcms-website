@@ -47,6 +47,10 @@
 
 @media screen and (max-width:767px) {
 
+        h1 {
+        font-size: 2.5rem;
+    }
+
     .primary-button {
         width: 100%;
     }
