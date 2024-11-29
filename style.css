@@ -157,7 +157,7 @@ header {
 }
 
 .header-left {
-    max-width: 40vw;
+    max-width: 30vw;
     text-align: center;
     font-style: italic;
     color: rgb(255, 166, 0);
