@@ -123,6 +123,12 @@
         flex-direction: column;
     }
 
+     .slider .slide .info {
+        margin-top: 45%;
+        padding: 0px;
+        width: 100%;
+    }
+
     .footer-container {
         flex-direction: column;
         gap: 40px;
