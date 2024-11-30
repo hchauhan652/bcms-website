@@ -105,6 +105,26 @@ overflow: hidden;
     color: var(--accent-color) !important;
 }
 
+.slider-secondary-button {
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+    text-align: center;
+}
+
+.slider-secondary-button:hover {
+    background-color: white;
+    color: var(--accent-color) !important;
+}
+
+#slider-secondary-button{
+    margin-right: 1rem;
+}
+
 /* top banner */
 
 .top-banner {
