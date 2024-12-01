@@ -123,6 +123,11 @@
         flex-direction: column;
     }
 
+    .slider{
+    position: relative;
+    min-height: 450px;
+}
+
      .slider .slide .info {
         margin-top: 65%;
         padding: 0px;
