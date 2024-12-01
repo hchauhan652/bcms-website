@@ -30,6 +30,21 @@
     .nav-links ul {
         flex-direction: column;
     }
+        .slider {
+    position: relative;
+    min-height: 450px;
+    }
+    
+    .slide .info {
+        margin-top: 60%;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .slide .info h2 {
+        font-size: 1.5rem;
+    }
+    
 
     .examples-area {
         gap: 20px;
@@ -126,7 +141,7 @@
     .slider {
     position: relative;
     min-height: 450px;
-}
+    }
     
     .slide .info {
         margin-top: 60%;
