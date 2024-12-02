@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+/* resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+    --primary-clr: #6c00f9;
+    --white: #fff;
+    --text-clr: #464646;
+    --tabs-list-bg-clr: #dfc8fd;
+    --btn-hvr: #4e03b0;
+}
+
+body {
+    font-family: 'Poppins' sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-family: 'Roboto' sans-serif;
+    font-size: 1.3rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+/* utility-classes */
+
+.small-bold-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container {
+max-width: 100dvw;
+margin-inline: auto;
+padding-inline: var(--padding-inline-section);
+overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+
+.primary-button {
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+    text-align: center;
+}
+
+.primary-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button {
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
+/* top banner */
+
+.top-banner {
+    background: #d40d7ae5;
+    background-image: url(assets/asset\ 28.png);
+    background-size: 300px;
+}
+
+.banner-text {
+    color: white;
+    padding: 10px 30px;
+    text-align: end;
+    justify-content: space-between;
+}
+
+/* Nav Bar */
+.main-nav {
+    margin-top: 5px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.company-logo img {
+    width: 100px;
+    border-radius: 25%;
+}
+
+.nav-links {
+    flex-basis: 850px;
+}
+
+.nav-links ul {
+    justify-content: end;
+    gap: 40px;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+
+/* Term & Condition */
+
+.flex_align_justify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper{
+    min-height: 100vh;
+    padding: 0 20px;
+  }
+  
+  .tc_wrap{
+    width: 100%;
+    max-width: 100%;
+    height: 100dvh;
+    background: var(--white);
+    display: flex;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .tc_wrap .tabs_list{
+    width: 400px;
+    background: var(--tabs-list-bg-clr);
+    height: 100%;
+  }
+  
+  .tc_wrap .tabs_content{
+    width: calc(100% - 400px);
+    padding: 0 10px 0 20px;
+    height: 100%;
+  }
+  
+  .tc_wrap .tabs_content .tab_head,
+  .tc_wrap .tabs_content .tab_foot{
+    color: var(--primary-clr);
+    padding: 25px 0;
+    height: 70px;
+  }
+  
+  .tc_wrap .tabs_content .tab_head{
+    text-align: center;
+  }
+  
+  .tc_wrap .tabs_content .tab_body{
+    height: calc(100% - 140px);
+    overflow: auto;
+  }
+  
+  .tc_wrap .tabs_list ul{
+    padding: 70px 20px;
+    text-align: right;
+  }
+  
+  .tc_wrap .tabs_list ul li{
+    padding: 10px 0;
+    position: relative;
+    margin-bottom: 3px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.5s ease;
+  }
+  
+  .tc_wrap .tabs_list ul li:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 2px;
+    height: 100%;
+    background: var(--primary-clr);
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+  
+  .tc_wrap .tabs_list ul li.active,
+  .tc_wrap .tabs_list ul li:hover{
+    color: var(--primary-clr);
+  }
+  
+  .tc_wrap .tabs_list ul li.active:before{
+    opacity: 1;
+  }
+  
+  .tc_wrap .tabs_content .tab_body .tab_item h3{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: var(--primary-clr);
+  }
+  
+  .tc_wrap .tabs_content .tab_body .tab_item p{
+    margin-bottom: 20px;
+  }
+  
+  .tc_wrap .tabs_content .tab_body .tab_item.active{
+    display: block !important;
+  }
+  
+  .tc_wrap .tabs_content .tab_foot button{
+      width: 125px;
+      padding: 5px 10px; 
+      background: transparent;
+      border: 1px solid;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: all 0.5s ease;
+  }
+  
+  .tc_wrap .tabs_content .tab_foot button.decline{
+      margin-right: 15px;
+      border-color: var(--tabs-list-bg-clr);
+      color: var(--tabs-list-bg-clr);
+  }
+  
+  .tc_wrap .tabs_content .tab_foot button.agree{
+     background: var(--primary-clr);
+    border-color: var(--primary-clr);
+    color: var(--white);
+  }
+  
+  .tc_wrap .tabs_content .tab_foot button.decline:hover{
+    background: var(--tabs-list-bg-clr);
+    color: var(--white);
+  }
+  
+  .tc_wrap .tabs_content .tab_foot button.agree:hover{
+    background: var(--btn-hvr);
+    border-color: var(--btn-hvr);
+  }
+
+/* Term & Condition */
+
+/* companies section */
+
+.companies-header {
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+}
+
+.logos {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo {
+    height: 56px;
+}
+
+
+/* footer section */
+
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;    
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* subfooter section */
+
+.subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
