@@ -1,0 +1,106 @@
+@media screen and (max-width:1023px) {
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .primary-button {
+        width: 100%;
+    }
+
+    .small-bold-text {
+        padding: 0;
+        font-size: .9rem;
+    }
+
+    .banner-text {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .wrapper {
+        max-width: 100dvw;
+    }
+
+    .tc_wrap {
+        flex-direction: column;
+    }
+
+    .tc_wrap .tabs_list{
+        width: 100dvw;
+    }
+
+    .tc_wrap .tabs_list ul{
+        padding: 0;
+        text-align: center;
+    }
+
+    .tc_wrap .tabs_content{
+        width: 100dvw;
+        text-align: justify;
+      }
+
+
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .link-column {
+        align-items: stretch;
+    }
+
+}
+
+@media screen and (max-width:479px) {
+
+    :root {
+        --padding-inline-section: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+}
