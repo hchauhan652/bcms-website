@@ -198,7 +198,7 @@ overflow: hidden;
   }
   
   .tc_wrap .tabs_content .tab_body{
-    padding: 2rem;
+    padding: 3rem;
     height: calc(100% - 140px);
     overflow: auto;
   }
