@@ -25,6 +25,13 @@ body {
     color: var(--primary-text-color);
 }
 
+.whatsapp_main {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 10;
+}
+
 h1 {
     font-size: 3rem;
 }
