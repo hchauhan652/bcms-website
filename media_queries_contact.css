@@ -96,8 +96,8 @@
         flex-direction: column-reverse;
     }
 
-    .contactinfo {
-        width: 80dvw;
+    .header-section .container .contactinfo {
+        width: 90dvw;
         margin-left: 5rem;
     }
 
