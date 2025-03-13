@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif, 'cambria', 'calibri', 'Nunito', 'merriweather';
     color: var(--primary-text-color);
 }
 
@@ -142,7 +142,7 @@ overflow: hidden;
 }
 
 .nav-links {
-    flex-basis: 730px;
+    flex-basis: 850px;
 }
 
 .nav-links ul {
