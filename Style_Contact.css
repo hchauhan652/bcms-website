@@ -63,7 +63,7 @@ ul {
 }
 
 .container {
-max-width: 1180px;
+max-width: 100dvw;
 margin-inline: auto;
 padding-inline: var(--padding-inline-section);
 overflow: hidden;
