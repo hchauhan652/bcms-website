@@ -130,6 +130,11 @@
     .feature-img img {
         width: 100vw;
     }
+
+    .feature-desc {
+    width: 100vw;    
+}
+
     
     .big-feature-container, #second-big-feature {
         flex-direction: column;
