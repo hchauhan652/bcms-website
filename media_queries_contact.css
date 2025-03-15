@@ -101,6 +101,18 @@
         margin-left: 5rem;
     }
 
+        .header-section .contactinfo .box .text h3
+    {
+        font-size: 1.3rem;
+    }
+
+    .header-section .contactinfo .box .text p
+    {
+        font-size: .9rem;
+        justify-content: center;
+
+    }
+
     .contactform
     {
         width: 100vw;
