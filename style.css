@@ -745,7 +745,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
 /* --- Contact Section Intro --- */
 .contact-intro-section {
   background-color: #f1f6fb;
-  padding: 10px 20px 40px;
+  padding: 20px 20px 40px;
   text-align: center;
 }
 
@@ -764,7 +764,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
 /* --- Main Contact Section --- */
 .contact-main-section {
   background-color: #ffffff;
-  padding: 60px 20px;
+  padding: 20px 20px;
 }
 
 .contact-main-section .container {
@@ -816,6 +816,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
 .contact-form {
   flex: 1 1 55%;
   min-width: 300px;
+  max-width: 600px;
   background-color: #f9f9f9;
   padding: 30px;
   border-radius: 12px;
