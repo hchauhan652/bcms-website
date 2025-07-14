@@ -126,7 +126,7 @@ a {
 }
 
 .slider-secondary-button:hover {
-  background: linear-gradient(135deg, #1565c0, #1e88e5) !important;
+  background: linear-gradient(135deg, #1565c0, #1e88e5);
   box-shadow: 0 6px 18px rgba(21, 101, 192, 0.6);
   transform: translateY(-2px);
 }
@@ -352,6 +352,12 @@ ul li:hover .dropdown{
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
+
+/* GLOBAL HEADER WRAPPER */
+/* header {
+  padding: var(--padding-inline-section);
+} */
+
 /* ------------------ HOMEPAGE HEADER ------------------ */
 .homepage-header {
 background: linear-gradient(to right, var(--accent-color), var(--light-bg));
@@ -525,7 +531,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
   justify-content: space-between;
   transform: translateY(-50%);
   padding: 0 20px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .prev-btn, .next-btn {
@@ -745,9 +751,9 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
 /* --- Contact Section Intro --- */
 .contact-intro-section {
   background-color: #f1f6fb;
+  text-align: center;
   margin-top: 2rem;
   padding-bottom: 1rem;
-  text-align: center;
 }
 
 .contact-intro-section .section-title {
@@ -764,7 +770,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
 
 /* --- Main Contact Section --- */
 .contact-main-section {
-  background-color: #ffffff;
+  background-color: #f7f4f4;
   padding: 20px 20px;
 }
 
@@ -780,7 +786,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
   flex: 1 1 40%;
   min-width: 300px;
   max-width: 600px;
-}
+} 
 
 .info-box {
   display: flex;
@@ -793,11 +799,11 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
   font-size: 1.8rem;
   line-height: 1.4;
   color: var(--accent-color);
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .info-text h3 {
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   font-weight: 600;
   color: var(--primary-text-color);
   margin-bottom: 5px;
@@ -805,7 +811,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
 
 .info-text p,
 .info-text a {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--secondary-text-color);
   line-height: 1.6;
 }
@@ -891,6 +897,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
 .inputBox input[type="submit"]:hover {
   background-color: var(--accent-color-dark);
 }
+
 
 /* Zoom Overlay Styles */
 #image-zoom-overlay {
@@ -1004,6 +1011,11 @@ footer {
   h3 { font-size: 1.3rem; }
   p  { font-size: 1rem; }
 
+  header {
+  margin-bottom: 9rem;
+}
+
+
   /* Container padding adjustment */
   .container {
     padding-inline: 10px;
@@ -1029,10 +1041,10 @@ footer {
     width: 150px;
     height: 40px;
   }
-
-  .navigation {
+.navigation {
   z-index: -1;
 }
+
 
   .product-item {
     flex-direction: column;
@@ -1180,6 +1192,14 @@ footer {
     margin-left: 10px;
   }
 
+  .contact-intro-section .section-title {
+  font-size: 1.5rem;
+}
+
+.contact-intro-section .section-subtitle {
+  font-size: 1rem;
+ }
+
     .contact-main-section .container {
     flex-direction: column;
     align-items: center;
@@ -1201,7 +1221,25 @@ footer {
 
   .info-box .icon {
     font-size: 1.5rem;
+    margin-left: 0;
+
   }
+
+  .info-text h3 {
+  font-size: 1.5rem;
+}
+
+.info-text p,
+.info-text a {
+  font-size: 1rem;
+}
+
+.contact-form .form-title {
+  font-size: 1.5rem;
+}
+
+.contact-form .form-subtitle {
+  font-size: 1rem;
 
 }
 
@@ -1230,4 +1268,5 @@ footer {
     bottom: 20px;
     right: 10px;
   }
+}
 }
