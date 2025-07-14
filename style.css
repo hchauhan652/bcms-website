@@ -126,7 +126,7 @@ a {
 }
 
 .slider-secondary-button:hover {
-  background: linear-gradient(135deg, #1565c0, #1e88e5);
+  background: linear-gradient(135deg, #1565c0, #1e88e5) !important;
   box-shadow: 0 6px 18px rgba(21, 101, 192, 0.6);
   transform: translateY(-2px);
 }
@@ -350,12 +350,6 @@ ul li:hover .dropdown{
   border-radius: 10px;
   object-fit: contain;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-}
-
-
-/* GLOBAL HEADER WRAPPER */
-header {
-  padding: var(--padding-inline-section);
 }
 
 /* ------------------ HOMEPAGE HEADER ------------------ */
