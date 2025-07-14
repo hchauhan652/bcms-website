@@ -200,13 +200,13 @@ a {
 
 .navbar ul li {
 display: inline-block;
-padding-right: 50px;
+padding-right: 2.2rem;
 }
 
 .navbar a {
   color: #961d1d;
-  font-size: larger;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 700;
   text-transform: uppercase;
   display: block;
   padding: 10px 5px;
@@ -214,8 +214,8 @@ padding-right: 50px;
 }
 
 .navbar a:hover{
-background-color: #fff;
-color: #291d96;
+background-color: #08b88c;
+color: #ffffff;
 
 }
 
