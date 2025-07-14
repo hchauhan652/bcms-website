@@ -23,7 +23,7 @@
 }
 
 body {
-  font-family: 'Poppins', 'Cambria', 'Calibri', 'Nunito', 'Merriweather', sans-serif;
+  font-family:  sans-serif,'Cambria', 'Calibri', 'Poppins','Nunito', 'Merriweather';
   color: var(--primary-text-color);
 }
 
