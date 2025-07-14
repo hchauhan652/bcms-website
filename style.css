@@ -1201,7 +1201,7 @@ footer {
  }
 
     .contact-main-section .container {
-    flex-direction: column reverse;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
