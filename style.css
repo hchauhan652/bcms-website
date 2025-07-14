@@ -745,7 +745,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
 /* --- Contact Section Intro --- */
 .contact-intro-section {
   background-color: #f1f6fb;
-  padding: 60px 20px 40px;
+  padding: 10px 20px 40px;
   text-align: center;
 }
 
