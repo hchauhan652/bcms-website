@@ -779,6 +779,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
 .contact-info {
   flex: 1 1 40%;
   min-width: 300px;
+  max-width: 600px;
 }
 
 .info-box {
@@ -792,6 +793,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
   font-size: 1.8rem;
   line-height: 1.4;
   color: var(--accent-color);
+    margin-left: 50px;
 }
 
 .info-text h3 {
@@ -832,7 +834,7 @@ background: linear-gradient(to right, var(--accent-color), var(--light-bg));
 }
 
 .contact-form .form-subtitle {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: var(--secondary-text-color);
   margin-bottom: 30px;
   text-align: center;
