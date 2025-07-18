@@ -1542,6 +1542,10 @@ main {
     text-align: center;
   }
 
+   .Certification {
+    font-size: 0.7rem;
+  }
+
   .company-logo img {
     height: 60px;
   }
