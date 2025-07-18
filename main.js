@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // === IMAGE ZOOM ===
+  // === IMAGE ZOOM MODAL ===
   const zoomOverlay = document.getElementById("image-zoom-overlay");
   const zoomedImg = document.getElementById("zoomed-img");
 
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // === DROPDOWN TOGGLES ===
+  // === DROPDOWN & SUB-DROPDOWN TOGGLE ===
   document.querySelectorAll('[data-toggle="dropdown"]').forEach(toggle => {
     toggle.addEventListener("click", e => {
       e.preventDefault();
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // === CLOSE DROPDOWNS ON OUTSIDE CLICK ===
-  document.addEventListener("click", (e) => {
+  document.addEventListener("click", e => {
     if (!e.target.closest(".dropdown, .sub-dropdown")) {
       document.querySelectorAll(".dropdown, .sub-dropdown").forEach(item =>
         item.classList.remove("active")
@@ -156,27 +156,43 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Open modal
-  document.querySelectorAll(".part-image").forEach((img) => {
+  // === IMAGE MODALS (PRODUCTS) ===
+  document.querySelectorAll(".part-image").forEach(img => {
     img.addEventListener("click", () => {
       const modalId = img.dataset.modal;
       document.getElementById(modalId).style.display = "block";
     });
   });
 
-  // Close modal
-  document.querySelectorAll(".close-btn").forEach((btn) => {
+  document.querySelectorAll(".close-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       btn.closest(".modal").style.display = "none";
     });
   });
 
-  // Click outside to close
-  window.addEventListener("click", (e) => {
-    document.querySelectorAll(".modal").forEach((modal) => {
+  window.addEventListener("click", e => {
+    document.querySelectorAll(".modal").forEach(modal => {
       if (e.target === modal) {
         modal.style.display = "none";
       }
+    });
+  });
+
+  // === FIX: KEEP SUB-DROPDOWN OPEN LONG ENOUGH TO CLICK ===
+  let timeout;
+
+  document.querySelectorAll(".main-nav li").forEach(item => {
+    item.addEventListener("mouseenter", () => {
+      clearTimeout(timeout);
+      const submenu = item.querySelector(".sub-dropdown");
+      if (submenu) submenu.classList.add("show");
+    });
+
+    item.addEventListener("mouseleave", () => {
+      const submenu = item.querySelector(".sub-dropdown");
+      timeout = setTimeout(() => {
+        if (submenu) submenu.classList.remove("show");
+      }, 300); // Delay for smoother user experience
     });
   });
 });
