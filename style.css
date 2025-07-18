@@ -1322,6 +1322,7 @@ main {
 
 /* Mobile: 480px to 767px */
 @media (max-width: 767px) {
+
   h1 {
     font-size: 2rem;
   }
@@ -1343,48 +1344,66 @@ main {
 
   nav {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
+    align-items: stretch;
+    padding: 0;
   }
 
+  /* Logo and hamburger in same row */
   .company-logo {
-    width: 100%;
-    margin: 0 auto 10px auto;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    width: 100%;
   }
 
   .company-logo img {
     height: 60px;
+    object-fit: contain;
   }
 
+  /* Top banner comes first and full width */
   .top-banner {
+    order: -1;
     width: 100%;
-    margin-bottom: 10px;
-    padding: 0;
+    margin: 0;
+    padding: 10px;
     background-size: cover;
+    background-position: center;
   }
 
   .banner-text {
     flex-direction: row;
-    gap: 8px;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: nowrap; /* prevent wrapping */
   }
 
   .part1, .part2 {
+    flex: 1;
     padding: 0;
     text-align: center;
   }
 
   .Certification {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+  }
+
+    /* Logo + Hamburger Row */
+  .nav-header-row {
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:50px;
+    background-color: #ffffff;
   }
 
   .bar {
     display: block;
-    align-self: flex-end;
-    margin-bottom: 10px;
     font-size: 26px;
     cursor: pointer;
+    /* padding: 10px; */
+    margin-right: 5px; /* right spacing */
   }
 
   .fa-bars {
@@ -1400,8 +1419,6 @@ main {
     flex-direction: column;
     width: 100%;
     background-color: #ffffff;
-    margin-top: 10px;
-    padding: 0;
     border-top: 1px solid #ddd;
   }
 
@@ -1445,6 +1462,10 @@ main {
   .sub-dropdown a:hover {
     background-color: #e0f7fa;
   }
+
+  /* main {
+    margin: 15px;
+  } */
 
   .slide .info h2 {
     font-size: 1.5rem;
@@ -1510,12 +1531,15 @@ main {
   }
 
 
-    .banner-text {
-    flex-direction: column;
+  .banner-text {
+    flex-wrap: wrap; /* allow wrapping if absolutely needed */
+    justify-content: center;
+    gap: 10px;
   }
 
   .part1, .part2 {
-    padding: 10px;
+    flex: 1 1 45%;
+    text-align: center;
   }
 
   .company-logo img {
@@ -1553,6 +1577,3 @@ main {
     font-size: 0.8rem;
   }
 }
-
-
-
