@@ -1678,6 +1678,39 @@ blockquote {
     width: 200px;
     height: 50px;
   }
+
+  .contact-intro-section .section-title {
+    font-size: 1.8rem;
+  }
+
+  .contact-intro-section .section-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .contact-main-section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info,
+  .contact-form {
+    max-width: 90%;
+  }
+
+  .info-box .icon {
+    margin-left: 20px;
+    font-size: 1.6rem;
+  }
+
+  .contact-form .form-title {
+    font-size: 1.6rem;
+  }
+
+  .contact-form .form-subtitle {
+    font-size: 1.1rem;
+  }
+
+
 }
 
 /* Mobile: 480px to 767px */
@@ -1865,8 +1898,42 @@ blockquote {
     justify-content: center;
   }
 
+  .whatsapp_main img {
+    width: 180px;
+    height: 45px;
+  }
+
+  .contact-intro-section .section-title {
+    font-size: 1.6rem;
+  }
+
+  .contact-intro-section .section-subtitle {
+    font-size: 1rem;
+  }
+
   .contact-main-section .container {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info,
+  .contact-form {
+    max-width: 95%;
+  }
+
+  .info-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info-box .icon {
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+
+  .info-text h3 {
+    font-size: 1.3rem;
   }
 
   .inputBox input,
@@ -1874,11 +1941,15 @@ blockquote {
     font-size: 0.95rem;
   }
 
-  .whatsapp_main img {
-    width: 180px;
-    height: 45px;
+  .contact-form .form-title {
+    font-size: 1.5rem;
+  }
+
+  .contact-form .form-subtitle {
+    font-size: 1rem;
   }
 }
+
 
 /* Extra small devices: below 480px */
 @media (max-width: 479px) {
