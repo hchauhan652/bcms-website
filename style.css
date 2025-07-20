@@ -2178,7 +2178,7 @@ Logos {
   }
 
   .company-Logo img {
-    height: 60px;
+    height: 40px;
   }
 
 
@@ -2221,7 +2221,7 @@ Logos {
 /* Index Page Hero Section */
 
   .hero-section {
-    padding: 70px 10px 50px;
+    padding-top: 160px;
   }
 
   .hero-section h1 {
