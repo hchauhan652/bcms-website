@@ -2221,6 +2221,11 @@ Logos {
 
 /* Index Page Hero Section */
 
+
+  .hero-section {
+    padding-top: 200px;
+  }
+
   .hero-section h1 {
     font-size: 1.5rem;
   }
