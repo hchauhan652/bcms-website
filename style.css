@@ -1692,7 +1692,7 @@ blockquote {
   }
 
   .contact-main-section .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -2005,7 +2005,7 @@ Logos {
   }
 
   .contact-main-section .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -2128,7 +2128,7 @@ Logos {
   }
 
   .contact-main-section .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
