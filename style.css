@@ -251,7 +251,6 @@ header {
 
 .hero-section {
   background: linear-gradient(to right, var(--accent-color), var(--light-bg));
-  padding: 80px 20px;
   text-align: center;
   color: #fff;
   padding: 100px 20px 80px;
