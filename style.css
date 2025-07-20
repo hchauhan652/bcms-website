@@ -1954,6 +1954,35 @@ blockquote {
     height: 280px;
   }
 
+/* index hero page section */
+
+  .hero-section {
+    padding: 60px 15px;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1.05rem;
+    max-width: 90%;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .primary-button,
+  .secondary-button {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+/* index hero page section end */
+
+
 /* about hero page section */
 
   .about-hero-content {
