@@ -181,19 +181,37 @@ document.addEventListener("DOMContentLoaded", () => {
   // === FIX: KEEP SUB-DROPDOWN OPEN LONG ENOUGH TO CLICK ===
   let timeout;
   document.querySelectorAll(".main-nav li").forEach(item => {
+  const submenu = item.querySelector(".sub-dropdown");
+
+  if (isMobile) {
+    // On mobile, use click to toggle sub-dropdown
+    const link = item.querySelector('a');
+
+    if (submenu && link) {
+      link.addEventListener("click", e => {
+        e.preventDefault();
+        submenu.classList.toggle("show");
+
+        // Close other open submenus
+        document.querySelectorAll(".sub-dropdown").forEach(other => {
+          if (other !== submenu) other.classList.remove("show");
+        });
+      });
+    }
+  } else {
+    // On desktop, use hover
     item.addEventListener("mouseenter", () => {
       clearTimeout(timeout);
-      const submenu = item.querySelector(".sub-dropdown");
       if (submenu) submenu.classList.add("show");
     });
 
     item.addEventListener("mouseleave", () => {
-      const submenu = item.querySelector(".sub-dropdown");
       timeout = setTimeout(() => {
         if (submenu) submenu.classList.remove("show");
       }, 300);
     });
-  });
+  }
+});
 
   // === MODAL ZOOM-IN CLICK ===
   document.querySelectorAll(".modal-content img.zoomable-modal-image").forEach(img => {
