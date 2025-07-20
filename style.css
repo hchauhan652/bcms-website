@@ -1890,6 +1890,24 @@ blockquote {
     height: 280px;
   }
 
+  .about-hero-content {
+    flex-direction: column;    /* Stack sections vertically */
+    text-align: center;
+    gap: 30px;                  /* Reduce gap between sections */
+  }
+
+  .about-hero-left h1 {
+    font-size: 2rem;            /* Smaller heading */
+  }
+
+  .about-hero-left p {
+    font-size: 1.1rem;          /* Smaller paragraph */
+  }
+
+  .about-hero-right {
+    padding: 0 10px;            /* Add some side padding */
+  }
+
   .product-image {
     height: 200px;
   }
