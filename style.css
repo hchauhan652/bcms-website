@@ -1831,10 +1831,11 @@ blockquote {
   .company-Logo img {
     height: 60px;
     object-fit: contain;
+  .company-Logo img {
+    height: 60px;
   } */
 
-   .company-Logo img {
-    height: 60px;
+ 
 
   /* Top banner comes first and full width */
   .top-banner {
