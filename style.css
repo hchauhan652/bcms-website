@@ -68,10 +68,12 @@ p {
 
 
 .whatsapp_main img {
-  width: 250px;
+  width: auto;
   height: 60px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease;
+  background-color: #28a745;
+  border-radius: 10px;
 }
 
 
