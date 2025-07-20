@@ -1645,6 +1645,13 @@ blockquote {
     font-size: 2rem;
   }
 
+  .container {
+    width: 95%;
+    padding: 25px 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+  }
+
   .product-info-box,
   .product-visual,
   .chair-repair-hero-left,
@@ -1733,6 +1740,13 @@ blockquote {
   .info-text p,
   .info-text a {
     font-size: 1rem;
+  }
+
+  .container {
+    width: 98%;
+    padding: 20px 10px;
+    box-shadow: none;
+    border-radius: 6px;
   }
 
   nav {
@@ -1968,6 +1982,12 @@ blockquote {
     font-size: 0.95rem;
   }
 
+  .container {
+    width: 100%;
+    padding: 15px 8px;
+    box-shadow: none;
+    border-radius: 4px;
+  }
 
   .banner-text {
     flex-wrap: wrap;
