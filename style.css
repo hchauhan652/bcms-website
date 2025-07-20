@@ -1906,6 +1906,15 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
+Logos {
+    justify-content: center;  /* Center align logos */
+    gap: 15px;                 /* Reduce gap */
+  }
+
+  .Logo {
+    height: 50px;              /* Slightly smaller logos */
+  }
+
   .footer-container {
     flex-direction: column;
     gap: 10px;
@@ -2023,6 +2032,16 @@ blockquote {
   .secondary-button {
     padding: 10px 20px;
     font-size: 1rem;
+  }
+
+Logos {
+    flex-direction: column;    /* Stack logos vertically */
+    align-items: center;       /* Center align in column */
+    gap: 10px;                  /* Reduce spacing further */
+  }
+
+  .Logo {
+    height: 40px;              /* Even smaller logos for better fit */
   }
 
   .footer {
