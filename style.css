@@ -253,7 +253,7 @@ header {
   background: linear-gradient(to right, var(--accent-color), var(--light-bg));
   text-align: center;
   color: #fff;
-  padding: 100px 20px 80px;
+  padding: 80px 20px;
 }
 
 .hero-section h1 {
@@ -1960,7 +1960,7 @@ blockquote {
 /* index hero page section */
 
   .hero-section {
-    padding: 80px 15px 60px;
+    padding: 60px 15px;
   }
 
   .hero-section h1 {
@@ -2218,7 +2218,7 @@ Logos {
 /* Index Page Hero Section */
 
   .hero-section {
-    padding: 70px 10px 50px;
+    padding: 40px 10px;
   }
 
   .hero-section h1 {
