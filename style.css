@@ -1745,6 +1745,10 @@ blockquote {
     box-shadow: none;
     border-radius: 6px;
   }
+  header {
+  padding-top: 200px;
+  /* Adjust based on header height */
+}
 
   nav {
     flex-direction: column;
