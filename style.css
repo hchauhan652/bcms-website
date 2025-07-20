@@ -253,7 +253,7 @@ header {
   background: linear-gradient(to right, var(--accent-color), var(--light-bg));
   text-align: center;
   color: #fff;
-  padding: 100px 20px 80x;
+    padding-top: 120px;
   scroll-margin-top: 80px; /* Adjust to match navbar height */
 }
 
