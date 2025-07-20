@@ -1942,6 +1942,25 @@ blockquote {
 
 /* Product hero page section end*/
 
+
+/* Service hero page section*/
+
+  .service-hero {
+    padding: 50px 15px;           /* Slightly reduce padding */
+  }
+
+  .service-hero h1 {
+    font-size: 2rem;              /* Smaller heading */
+  }
+
+  .service-hero .sub-heading {
+    font-size: 1.05rem;           /* Slightly smaller subheading */
+    max-width: 90%;               /* Use more width on smaller screens */
+  }
+
+/* Service hero page section end*/
+
+
   .product-image {
     height: 200px;
   }
