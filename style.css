@@ -2000,10 +2000,6 @@ blockquote {
     height: 150px;
   }
 
-  .contact-form {
-    padding: 20px;
-  }
-
   .primary-button,
   .secondary-button {
     padding: 10px 20px;
@@ -2013,4 +2009,57 @@ blockquote {
   .footer {
     font-size: 0.8rem;
   }
+
+  .contact-intro-section .section-title {
+    font-size: 1.4rem;
+  }
+
+  .contact-intro-section .section-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .contact-main-section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info,
+  .contact-form {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .info-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info-box .icon {
+    margin-left: 0;
+    font-size: 1.4rem;
+  }
+
+  .info-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .inputBox input,
+  .inputBox textarea {
+    font-size: 0.9rem;
+    padding: 10px 14px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-form .form-title {
+    font-size: 1.4rem;
+  }
+
+  .contact-form .form-subtitle {
+    font-size: 0.95rem;
+  }
 }
+
