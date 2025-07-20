@@ -1890,6 +1890,8 @@ blockquote {
     height: 280px;
   }
 
+/* about hero page section */
+
   .about-hero-content {
     flex-direction: column;    /* Stack sections vertically */
     text-align: center;
@@ -1907,6 +1909,38 @@ blockquote {
   .about-hero-right {
     padding: 0 10px;            /* Add some side padding */
   }
+
+/* about hero page section end*/
+
+
+/* Product hero page section */
+
+  .product-top-section {
+    flex-direction: column;          /* Stack sections vertically */
+    align-items: center;              /* Center align content */
+    gap: 30px;                        /* Reduce gap */
+  }
+
+  .product-info-box {
+    max-width: 100%;                  /* Full width */
+    padding: 25px;                    /* Slightly reduced padding */
+  }
+
+  .product-info-box h2 {
+    font-size: 1.8rem;                /* Slightly smaller heading */
+  }
+
+  .product-categories li a {
+    font-size: 1rem;                  /* Reduce font size */
+    padding: 8px 12px;                /* Smaller padding */
+  }
+
+  .product-visual img {
+    max-width: 400px;                 /* Limit image size on tablets */
+  }
+
+
+/* Product hero page section end*/
 
   .product-image {
     height: 200px;
