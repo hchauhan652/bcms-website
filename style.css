@@ -1762,14 +1762,14 @@ blockquote {
     padding: 10px;
     background-size: cover;
     background-position: center;
-  }
-
+ }
+ 
   .banner-text {
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
-    flex-wrap: nowrap;
-    /* prevent wrapping */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    align-items: center;
   }
 
   .part1,
@@ -1777,6 +1777,9 @@ blockquote {
     flex: 1;
     padding: 0;
     text-align: center;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: Add "..." if text is too long */
   }
 
   .Certification {
