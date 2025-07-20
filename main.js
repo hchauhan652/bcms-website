@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // === RESPONSIVE NAV TOGGLE ===
+const isMobile = window.innerWidth <= 767; // Mobile screen detection
   const barsIcon = document.getElementById("bars");
   const timesIcon = document.getElementById("times");
   const navLinks = document.getElementById("nav-links");
